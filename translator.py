@@ -5,7 +5,7 @@ translator = Translator(to_lang="ja")
 #Examples: (e.g. en, ja, ko, pt, zh, zh-TW, ...)
 
 try:
-    with open(r"C:\Users\sanja\OneDrive\Desktop\PYTHON\python code\Translate source.txt", "r", encoding="utf-8") as file:
+    with open(r" python/Translate source.txt", "r", encoding="utf-8") as file:
         text = file.read()
         translation = translator.translate(text)
         print(translation)
